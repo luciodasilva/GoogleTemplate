@@ -63,7 +63,7 @@ section {
     padding-left:10px;
 }
 #micicon {
-    width: 17px;
+    width: 15px;
 }
 #lupaicon {
     width: 17px;
@@ -135,7 +135,7 @@ footer {
     padding-left:10px;
     padding-right:10px;
 }
-@media (max-width:600px) {
+@media (max-width:700px) {
     .search {
         max-width:90%;
     }
@@ -148,5 +148,14 @@ footer {
     }
     #foot2 ul li {
         padding:10px;
+    }
+    #footopnone {
+        display:none;
+    }
+    #logo {
+        width:200px;
+    }
+    footer {
+        margin-top:200px;
     }
 }
